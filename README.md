@@ -1,14 +1,25 @@
-# Diccionario de datos
+# GraphQL
 
-1. **Query**: Definición de una consulta
+Es un lenguaje creado por Facebook en 2012 para **manipular y realizar consultas de datos**.
 
-2. **Type defs** Definición de tu arquitectura de datos de tu api
+Describe las **las capacidades y los requsitos** de los modelos de datos para aplicaciones cliente-servidor.
 
-3. **Resolvers**: Encargados de darle la lógica a las querys de tu API.
+![](images/GraphQL1.png)
 
-4. **Mutation**: Querys encargadas de modificar y actualizar datos.
+## Diccionario de datos
 
-5. **Apollo Server**: Define tu servidor con graphql y la comunicación de tu API.
+
+1. **Type defs** Definición de tu arquitectura de datos de tu api
+
+2. **Query**: Definición de una consulta
+
+3. **Mutation**: Querys encargadas de modificar y actualizar datos.
+
+4. **Subscriptions**: Forma en que GraphQL maneja los eventos que emite un servidor el cual diferentes clientes puden subscribirse.
+
+5. **Resolvers**: Encargados de darle la lógica a las querys de tu API.
+
+6. **Apollo Server**: Define tu servidor con graphql y la comunicación de tu API.
 
 
 ## Creación carpeta proyecto
@@ -32,8 +43,17 @@ npm i gaphql-tools@7.0.2
 npm i mongoose@5.9.7
 ```
 
-## Ejecución Poryecto
+## Ejecución Proyecto
 
 ```
+<<<<<<< HEAD
+* npm start 
+```
+
+## Diagrama de GraphQL
+
+![](images/GraphQL.png)
+=======
 npm start 
 ```
+>>>>>>> 92666ac299c9383ea55124b91bed9704773bfd3e
