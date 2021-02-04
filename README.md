@@ -53,6 +53,4 @@ $ npm start
 
 ![](images/GraphQL.png)
 
-```
-npm start 
-```
+
