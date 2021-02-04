@@ -46,14 +46,13 @@ npm i mongoose@5.9.7
 ## Ejecución Proyecto
 
 ```
-<<<<<<< HEAD
-* npm start 
+$ npm start 
 ```
 
 ## Diagrama de GraphQL
 
 ![](images/GraphQL.png)
-=======
+
+```
 npm start 
 ```
->>>>>>> 92666ac299c9383ea55124b91bed9704773bfd3e
